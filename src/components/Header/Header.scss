@@ -9,6 +9,7 @@
 
 #header .header {
     min-height: 8vh;
+    background-color: black;
     /* background-color: rgba(31, 30, 30, .24);
     transition: .3s ease background-color; */
 }
@@ -153,9 +154,6 @@
 
 /* Media Query for desktop */
 @media only screen and (min-width: 1200px) {
-    #header .header {
-        background-color: black;
-    }
     #header .hamburger {
         display: none;
     }
