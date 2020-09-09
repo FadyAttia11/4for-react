@@ -1,0 +1,105 @@
+#services .services {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#services .services-header h1 {
+    margin: 50px 0;
+}
+
+#services .all-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#services .service-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#services .service-info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white
+}
+
+#services .service-info h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#services .service-info h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(189, 189, 189);
+}
+
+#services .service-info p {
+    color: white;
+}
+#services .service-img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#services .service-img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: .3;
+}
+
+#services .service-img img {
+    transition: .3s ease transform;
+}
+
+#services .service-item:hover .service-img img {
+    transform: scale(1.1);
+}
+
+
+/* Media Query for tablet */
+@media only screen and (min-width:768px) {
+    #services .service-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    #services .service-item {
+        flex-direction: row;
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #services .all-services .service-info {
+        height: 100%
+    }
+    #services .all-services .service-img {
+        height: 100%
+    }
+}
+/* End Media Query for tablet */
