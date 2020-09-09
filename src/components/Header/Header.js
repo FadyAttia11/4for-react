@@ -42,11 +42,11 @@ const Header = () => {
                     <div className="nav-list">
                         <div className="hamburger"><div className="bar"></div></div>
                         <ul>
-                            <li><Link to="/https://fadyattia11.github.io/4for-react/">Home</Link></li>
-                            <li><Link to="/https://fadyattia11.github.io/4for-react/services">Services</Link></li>
-                            <li><Link to="/https://fadyattia11.github.io/4for-react/hire">Hire Us</Link></li>
-                            <li><Link to="/https://fadyattia11.github.io/4for-react/plans">Plans & Pricing</Link></li>
-                            <li><Link to="/https://fadyattia11.github.io/4for-react/about">About Me</Link></li>
+                            <li><Link to="/4for-react/">Home</Link></li>
+                            <li><Link to="/4for-react/services">Services</Link></li>
+                            <li><Link to="/4for-react/hire">Hire Us</Link></li>
+                            <li><Link to="/4for-react/plans">Plans & Pricing</Link></li>
+                            <li><Link to="/4for-react/about">About Me</Link></li>
                         </ul>
                     </div>
                 </div>
