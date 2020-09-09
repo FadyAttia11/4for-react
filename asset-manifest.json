@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/4for-react/static/css/main.00917c4b.chunk.css",
+    "main.js": "/4for-react/static/js/main.8f48fc2d.chunk.js",
+    "main.js.map": "/4for-react/static/js/main.8f48fc2d.chunk.js.map",
+    "runtime-main.js": "/4for-react/static/js/runtime-main.b91761e8.js",
+    "runtime-main.js.map": "/4for-react/static/js/runtime-main.b91761e8.js.map",
+    "static/js/2.3831924e.chunk.js": "/4for-react/static/js/2.3831924e.chunk.js",
+    "static/js/2.3831924e.chunk.js.map": "/4for-react/static/js/2.3831924e.chunk.js.map",
+    "index.html": "/4for-react/index.html",
+    "precache-manifest.4e7b84ca43e34795519f4ebed6a4185f.js": "/4for-react/precache-manifest.4e7b84ca43e34795519f4ebed6a4185f.js",
+    "service-worker.js": "/4for-react/service-worker.js",
+    "static/css/main.00917c4b.chunk.css.map": "/4for-react/static/css/main.00917c4b.chunk.css.map",
+    "static/js/2.3831924e.chunk.js.LICENSE.txt": "/4for-react/static/js/2.3831924e.chunk.js.LICENSE.txt",
+    "static/media/4jobs.jpg": "/4for-react/static/media/4jobs.3cd2fabe.jpg",
+    "static/media/4movies.jpg": "/4for-react/static/media/4movies.f80ded8d.jpg",
+    "static/media/4places.jpg": "/4for-react/static/media/4places.358a0b0b.jpg",
+    "static/media/4shopping.jpg": "/4for-react/static/media/4shopping.dedeca96.jpg",
+    "static/media/Hero.scss": "/4for-react/static/media/hero-bg2.eab26123.jpg",
+    "static/media/Hire.scss": "/4for-react/static/media/img-1.f636c6b7.png",
+    "static/media/personal-img.jpg": "/4for-react/static/media/personal-img.6150f21d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b91761e8.js",
+    "static/js/2.3831924e.chunk.js",
+    "static/css/main.00917c4b.chunk.css",
+    "static/js/main.8f48fc2d.chunk.js"
+  ]
+}
